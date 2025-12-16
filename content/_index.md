@@ -10,7 +10,7 @@ hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
 
 **Languages:** R, Python, SQL, Go
 
-**Tools:** Git, dbt, Github Actions, Docker, Terraform, Claude Code
+**Tools:** Git, dbt, Github Actions, APIs, Docker, Terraform, Claude Code
 
 ## Employment History
 
@@ -30,7 +30,6 @@ Building pipelines, integrating data sources, and making data easier to access a
 
 - Built CI/CD pipelines for data workflows and infrastructure deployments.
 - Automated ETL with GitHub Actions, Docker, and Dagster.
-- Pulled in data from APIs, SFTP servers, and email inboxes.
 - Set up data quality checks, monitoring dashboards, and alerting.
 - Wrote internal Python and R packages.
 - Built BI dashboards for reporting.

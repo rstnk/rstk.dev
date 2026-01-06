@@ -1,0 +1,17 @@
+{{- if or .Date .Params.categories .Params.tags }}
+  <div class="metadata">
+    {{- with .Date }}
+      {{- $dateMachine := . | time.Format "2006-01-02T15:04:05-07:00" }}
+      {{- $dateHuman := . | time.Format ":date_long" }}
+      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    {{- end }}
+    {{- with .Params.categories }}
+      {{- range $i, $cat := . }}
+        · <a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+      {{- end }}
+    {{- end }}
+    {{- with .Params.tags }}
+      · {{ range $i, $tag := . }}{{- if $i }} {{ end }}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">#{{ . }}</a>{{- end }}
+    {{- end }}
+  </div>
+{{- end }}

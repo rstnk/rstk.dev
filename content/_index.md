@@ -17,8 +17,8 @@ hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
 |---------|------|-------|
 | Delfi Diagnostics | Data Engineer | Apr 2022–Present |
 | N-Power Medicine | Program Manager | Oct 2021–Apr 2022 |
-| GRAIL | Data Analyst | Jan 2018–Oct 2021 |
-| Gilead Sciences | Clinical Data Manager | Nov 2015–Jan 2018 |
+| GRAIL | Data Engineer | Jan 2018–Oct 2021 |
+| Gilead Sciences | Clinical Data Management | Nov 2015–Jan 2018 |
 | Genentech | Biosample Coordinator | Dec 2012–Aug 2013 |
 
 ## Professional Experience

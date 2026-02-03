@@ -9,7 +9,7 @@ hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
 - **Languages:** Python, SQL, R, Go
 - **Cloud & Infrastructure:** AWS, GCP
 - **Data Engineering:** Databricks, dbt, Dagster, DuckDB, ETL/ELT pipelines
-- **DevOps & Tools:** Git, GitHub Actions, Docker, Terraform, CI/CD, Claude Code, LLM integration
+- **DevOps & Tools:** Git, GitHub Actions, Docker, Terraform, CI/CD, agentic programming, LLM integration
 
 ## Employment History
 

@@ -6,10 +6,11 @@ hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
 
 ## Technical Skills
 
-- **Languages:** Python, SQL, R, Go
-- **Cloud & Infrastructure:** AWS, GCP
-- **Data Engineering:** Databricks, dbt, Dagster, DuckDB, ETL/ELT pipelines
-- **DevOps & Tools:** Git, GitHub Actions, Docker, Terraform, CI/CD, agentic programming, LLM integration
+- **Languages:** Python (Spark, Polars), SQL, R (Tidyverse), Go  
+- **Data Engineering:** Databricks, dbt, ETL pipelines, data orchestration
+- **Cloud & Infrastructure:** AWS, GCP, Terraform  
+- **DevOps:** Docker, Git, GitHub Actions, CI/CD  
+- **AI:** Agentic programming, LLM integration
 
 ## Employment History
 
@@ -25,6 +26,7 @@ hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
 
 **Data Engineer** · Delfi Diagnostics
 
+- Led Databricks adoption initiative, migrating legacy workflows and training team members on platform capabilities
 - Built CI/CD pipelines using GitHub Actions and Docker that automated clinical data pipelines, eliminating manual deployments
 - Automated ETL processes with Dagster, enabling data workflows to refresh daily and supporting users across data science and clinical teams
 - Implemented data quality monitoring framework with automated checks and alerting, improving data reliability and catching issues before they impact downstream users
@@ -32,7 +34,6 @@ hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
 - Delivered BI dashboards in Shiny for executive reporting, providing real-time visibility into key metrics such as biosample tracking and study enrollment
 - Created semantic layers following CDISC/ADaM standards, standardizing data for 3 clinical studies
 - Built LLM-powered chatbot with DuckDB MCP integration, enabling non-technical users to self-serve common data queries in natural language
-- Led Databricks adoption initiative, migrating 3 workflows from legacy systems and training team members on platform capabilities
 
 **Data Engineer** · GRAIL
 

@@ -2,7 +2,7 @@
 title: "//rustin.k"
 ---
 
-hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
+hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk) | [sr.ht](https://git.sr.ht/~rst/)
 
 ## Technical Skills
 

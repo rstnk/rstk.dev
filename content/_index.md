@@ -1,15 +1,17 @@
 ---
-title: "//rustin.k"
+title: "rustin k"
 ---
 
 hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk) | [sr.ht](https://sr.ht/~rst/)
 
 ## Technical Skills
 
+- **Interests**: Data engineering, analytics engineering
 - **Languages:** Python (Spark, Polars), R (Tidyverse), SQL, Go
 - **Cloud & Infrastructure:** AWS, GCP
-- **Data Engineering:** Databricks, ETL pipelines, data orchestration, dbt, Spark, Polars, Tidyverse
-- **DevOps & Tools:** Git, GitHub Actions, Docker, CI/CD, Terraform, agentic programming, LLM integration
+- **Data Engineering:** Databricks, dbt, ETL pipelines, data orchestration, data governance, APIs
+- **DevOps & Tools:** Git, GitHub Actions, Docker, CI/CD, Terraform, Dagster, agentic programming, LLM integration
+- **Hobbies**: Reading (sci-fi, fantasy), photography, technology, tinkering, gaming, working out
 
 ## Employment History
 
@@ -26,6 +28,7 @@ hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk) | [s
 **Data Engineer** · Delfi Diagnostics
 
 - Led Databricks adoption initiative, migrating workflows from legacy systems and training team members on platform capabilities
+  - Develop entire pipelines via Declarative Automation Bundles (DAB)
   - Implemented Medallion Architecture in Unity Catalog
   - Developed ETL orchestration using Spark Declarative Pipelines (SDP)
   - Deployed AI/BI assistant using Genie Spaces

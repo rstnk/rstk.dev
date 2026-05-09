@@ -11,7 +11,7 @@ hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk) | [s
 - **Cloud & Infrastructure:** AWS, GCP
 - **Data Engineering:** Databricks, dbt, ETL pipelines, data orchestration, data governance, APIs
 - **DevOps & Tools:** Git, GitHub Actions, Docker, CI/CD, Terraform, Dagster, agentic programming, LLM integration
-- **Hobbies**: Reading (sci-fi, fantasy), photography, technology, tinkering, gaming, working out
+- **Hobbies**: Reading (sci-fi, fantasy), documentaries, photography, gaming, working out, nature walks
 
 ## Employment History
 

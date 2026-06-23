@@ -4,13 +4,15 @@ title: "rustin k"
 
 hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk) | [sr.ht](https://sr.ht/~rst/)
 
+I am interested in data modeling, automating ETL pipelines, and implementing data governance to give AI agents the right context and proper permissions to operate accurately and effectively. I prioritize clean code and stay current with the latest data engineering technologies. I am a high performer with strong proficiency in Databricks.
+
 ## Technical Skills
 
-- **Interests**: Data engineering, analytics engineering
-- **Languages:** Python (Spark, Polars), R (Tidyverse), SQL, Go
+- **Languages:** Python, R, SQL, and learning Go
+- **AI:** MCP and LLM integration, agent workflows, AI-driven development (Claude Code, Gemini CLI, Codex)
 - **Cloud & Infrastructure:** AWS, GCP
-- **Data Engineering:** Databricks, dbt, ETL pipelines, data orchestration, data governance, APIs
-- **DevOps & Tools:** Git, GitHub Actions, Docker, CI/CD, Terraform, Dagster, agentic programming, LLM integration
+- **Data Engineering:** Databricks, ETL, data ingestion, Medallion architecture, pipeline orchestration and automation
+- **DevOps & Tools:** Git, GitHub Actions, Docker, CI/CD, Terraform
 - **Hobbies**: Reading (sci-fi, fantasy), documentaries, photography, gaming, working out, nature walks
 
 ## Employment History

@@ -1,6 +1,6 @@
 ---
 title: "macOS Setup"
-date: 2024-05-24
+date: 2026-06-27
 description: "macOS setup"
 categories: ["personal"]
 tags: ["tech"]
@@ -14,17 +14,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 - iCloud
   - Sign into iCloud account
-  - Disable iCloud Drive backup for Desktop and Documents folders
-
-- Notifications
-  - Turn off notifications for everything
-
-- Appearance
-  - Show scroll bars: Always
-  - Click in the scroll bar to: Jump to spot that's clicked
-
-- Control Center
-  - Hide everything
+  - Drive: Disable Desktop & Document Folders
 
 - Accessibility
   - Display: Shake mouse pointer to locate: Disable
@@ -32,13 +22,15 @@ I want to use this post as reference for setting up my macOS environment from sc
   - Display: Reduce transparency: Enable
   - Differentiate without color: Enable
 
+- Appearance
+  - Liquid Glass: Tinted
+  - Windows: Sidebar icon size: Small
+  - Show scroll bars: Always
+  - Click in the scroll bar to: Jump to spot that's clicked
+
 - Apple Intelligence & Siri
   - Disable Apple Intelligence
   - Disable Siri
-
-- Spotlight
-  - Help Apple Improve Search: Disable
-  - Disable Spotlight for everything except Applications, Calculator, and System Settings
 
 - Desktop & Dock
   - Position: Left
@@ -47,11 +39,20 @@ I want to use this post as reference for setting up my macOS environment from sc
   - Minimize windows into application icon: Disable
   - Automatically hide and show the Dock: Enable
   - Show suggested and recent apps in Dock: Disable
-  - Disable Desktop & Stage Manager: Show on Desktop
-  - Click wallpaper to reveal desktop: Only in Stage Manager
+  - Desktop & Storage Manager: Show items: On Desktop
   - Stage Manager: Disable
   - Widgets: Disable
   - Hot Corners: top-right: Mission Control, bottom-right: Desktop
+
+- Menu Bar
+  - Hide everything
+
+- Spotlight
+  - Help Apple Improve Search: Disable
+  - Disable Spotlight for everything except Applications, Calculator, and System Settings
+
+- Notifications
+  - Turn off notifications for everything
 
 - Game Center
   - Disable
@@ -61,11 +62,17 @@ I want to use this post as reference for setting up my macOS environment from sc
   - Delay until repeat: shortest
   - Press fn key to: Do Nothing
 
-- Mouse
+- Trackpad
   - Tracking speed: 70%
+  - Look up & data detection: Disable
+  - Secondary click: Click or Tab with Two Fingers
+  - Tab to click: enable
   - Natural scrolling: Disable
   - Secondary click: Right Side
   - Smart zoom: Disable
+  - Notification Center: Disable
+  - Mission Contro: Swipe Up with Four Fingers
+  - Show Desktop: Disable
 
 ## Finder Settings
 
@@ -95,23 +102,14 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 - [1Password](https://1password.com/): Password manager
 - [Acorn](https://flyingmeat.com/acorn/): Image editor
-- [AppCleaner](https://freemacsoft.net/appcleaner/): App uninstaller
-- [Antinote](https://antinote.io/): Menu bar scratchpad
 - [Firefox](https://www.mozilla.org/en-US/firefox/): Web browser
-- [ForkLift](https://binarynights.com/): FTP client
 - [Ghostty](https://github.com/ghostty-org/ghostty): Terminal emulator
-- [Hidden Bar](https://github.com/dwarvesf/hidden): Menu bar manager
-- [iA Writer](https://ia.net/writer): Writing editor
 - [IINA](https://github.com/iina/iina): Media player
 - [Itsycal](https://github.com/sfsam/Itsycal): Menu bar calendar
 - [Keka](https://github.com/aonez/Keka): Archive manager
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
-- [Meta](https://www.nightbirdsevolve.com/meta/) and [Mp3tag](https://mp3tag.app): Audio tagger
-- [Mimestream](https://mimestream.com/): Email client
 - [Mullvad VPN](https://mullvad.net/en): VPN service
-- [Radiola](https://github.com/SokoloffA/radiola): Menu bar internet radio
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
-- [Spect](http://stevenf.com/spect/): Gallery viewer and image organizer
 - [Swinsian](https://swinsian.com/) and [Cog](https://github.com/losnoco/Cog): Music players
 
 ## Terminal
@@ -120,19 +118,15 @@ Install [Homebrew](https://brew.sh/) and packages:
 
 - 1password-cli: Command-line interface for 1Password
 - atuin: Improved shell history for zsh, bash, fish and nushell
-- bat: Clone of cat(1) with syntax highlighting and Git integration
-- catimg: Insanely fast image printing in your terminal
 - claude-code (--cask): Terminal-based AI coding assistant
 - duckdb: Embeddable SQL OLAP Database Management System
 - exiftool: Perl lib for reading and writing EXIF metadata
 - eza: Modern, maintained replacement for ls
 - f2: Command-line batch renaming tool
-- fastfetch: Like neofetch, but much faster because written mostly in C
 - ffmpeg: Play, record, convert, and stream audio and video
 - gh: GitHub command-line tool
 - git: Distributed revision control system
 - imagemagick: Tools and libraries to manipulate images in many formats
-- lf: Terminal file manager
 - lftp: Sophisticated file transfer program
 - magic-wormhole: Securely transfers data between computers
 - neovim: Ambitious Vim-fork focused on extensibility and agility
@@ -145,41 +139,31 @@ Install [Homebrew](https://brew.sh/) and packages:
 
 ## Programming
 
-- Ensure Xcode is installed with `xcode-select -p`
+- Xcode will be installed as part of `brew`
 - Disable accented character when holding down keys:
   - `defaults write -g ApplePressAndHoldEnabled -bool false`
 - Compact menu bar items:
   - `defaults -currentHost write -globalDomain NSStatusItemSpacing -int 2`
   - `defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 2`
-- [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html): AWS CLI
-- [Docker](https://www.docker.com/): Container platforms
-- [Go](https://go.dev/dl) and [R](https://cloud.r-project.org/): Programming languages
-- [MarkEdit](https://github.com/MarkEdit-app/MarkEdit): Markdown editor and Preview pane extension
-- [Quarto](https://quarto.org/): Publishing system
+- [Go](https://go.dev/dl): Go Programming language
+- [MDV](https://www.mowglii.com/mdv/): Markdown viewer and Preview pane extension
 - [Sublime Text](https://www.sublimetext.com/): Text editor
 - [uv](https://docs.astral.sh/uv/), [ruff](https://docs.astral.sh/ruff/), and [ty](https://docs.astral.sh/ty/): Python tools
-- [Zed](https://zed.dev/) and [Positron](https://positron.posit.co/): Code editors
+- [Zed](https://zed.dev/): Code editor
 - Go tools
   - Update Go tools: `goup` (custom function in the .zfunc file)
 - Python versions to install with `uv python install <version>`
-- Tools to install with `uv tool install <tool>`
-  - [gallery-dl](https://github.com/mikf/gallery-dl/): CLI for downloading image galleries (needs `--with yt-dlp` flag)
-- Add the PATHS to "/private/etc/paths.d"
-  - Go: "/usr/local/go/bin"
-  - Quarto: "/Applications/quarto/bin"
 
 ## SSH Key and Github
 
-- Generate a new SSH key and store in [1Password](https://support.1password.com/developer/)
-- Add the SSH key to the [ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-- Add public key to sourcehut and Github (both Authentication and Signing key types)
-- Test connection with `ssh -T git@git.sr.ht` and `ssh -T git@github.com`
+- Generate a new SSH key in [1Password](https://support.1password.com/developer/)
+- Add public keys to Github (both Authentication and Signing key types) and sourcehut
+- Test connection with `ssh -T git@github.com` and `ssh -T git@git.sr.ht`
 
 ## Firefox
 
 - Enable Firefox Sync for bookmarks, addons, and settings
-  - Extensions: [Kagi](https://github.com/kagisearch/browser_extensions), [Stylus](https://github.com/openstyles/stylus), [Temporary Containers](https://github.com/stoically/temporary-containers), [uBlock Origin](https://github.com/gorhill/uBlock), [Vimium](https://github.com/philc/vimium)
-- Optional: Setup [Density](https://github.com/phil294/density-userstyle) for Stylus
+  - Extensions: [Kagi](https://github.com/kagisearch/browser_extensions), [Temporary Containers](https://github.com/stoically/temporary-containers), [uBlock Origin](https://github.com/gorhill/uBlock), [Vimium](https://github.com/philc/vimium)
 
 ## Configs
 
@@ -193,11 +177,8 @@ My user settings are either synced in the program or through [yadm](https://gith
 - eza: [Custom minimal theme](https://gist.github.com/pymk/9a3591e5ada0e964b4e5b5b744fcb85b)
 - Ghostty: Default theme with [custom minimal Starship config](https://gist.github.com/pymk/799c73d87fdb11984d79642f42b4cf65)
 - Neovim: [One Dark](https://github.com/navarasu/onedark.nvim)
-- Sublime: [GitHub Adaptive](https://github.com/mauroreisvieira/github-sublime-theme/)
 - Zed: [Custom theme](https://github.com/rstnk/zed-theme-go/tree/main)
 
 ## Misc
 
 - Prevents npm from automatically running lifecycle scripts: `echo 'ignore-scripts=true' > ~/.npmrc`
-- Create a symlink for Claude Code: `ln -s /opt/homebrew/bin/claude ~/.local/bin/claude`
-- Create a symlink for Positron config file: `ln -sf "$XDG_CONFIG_HOME/positron/settings.json" "$HOME/Library/Application Support/Positron/User/settings.json"`

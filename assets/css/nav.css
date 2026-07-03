@@ -1,76 +1,76 @@
 .navbar {
-  display: flex;
-  align-items: center;
-  position: relative;
-  background: inherit;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: inherit;
 }
 
 .navbar p {
-  margin: 0;
-  font-weight: bold;
-  font-size: 14px;
+    margin: 0;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .navbar input[type="checkbox"],
 .navbar label[for="dropdown"] {
-  margin-left: auto;
-  display: none;
+    margin-left: auto;
+    display: none;
 }
 
 .navbar label[for="dropdown"] svg {
-  display: block;
+    display: block;
 }
 
 .navbar ul {
-  display: flex;
-  list-style: none;
-  margin: 0 -0.8em 0 auto;
-  padding: 0;
-  background: inherit;
-  text-align: center;
+    display: flex;
+    list-style: none;
+    margin: 0 -0.8em 0 auto;
+    padding: 0;
+    background: inherit;
+    text-align: center;
 }
 
 .navbar ul a {
-  display: block;
-  padding: 0.8em;
-  color: var(--link);
-  text-decoration: none;
-  font-size: 13px;
+    display: block;
+    padding: 0.8em;
+    color: var(--link);
+    text-decoration: none;
+    font-size: 13px;
 }
 
 .navbar ul .active {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .navbar ul a:hover {
-  text-decoration: underline;
-  background: none;
+    text-decoration: underline;
+    background: none;
 }
 
-@media screen and (max-width: 600px) {
-  .navbar label[for="dropdown"] {
-    display: block;
-  }
+@media screen and (max-width: 900px) {
+    .navbar label[for="dropdown"] {
+        display: block;
+    }
 
-  .navbar ul {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    margin: 0;
-    flex-direction: column;
-    background-color: var(--bg2);
-    border: 1px solid var(--fg2);
-  }
+    .navbar ul {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        margin: 0;
+        flex-direction: column;
+        background-color: var(--bg2);
+        border: 1px solid var(--fg2);
+    }
 
-  .navbar ul .active {
-    background-color: var(--bg3);
-  }
+    .navbar ul .active {
+        background-color: var(--bg3);
+    }
 
-  .navbar ul a {
-    padding: 0.8em 1.5em;
-  }
+    .navbar ul a {
+        padding: 0.8em 1.5em;
+    }
 
-  .navbar:has(input[type="checkbox"]:checked) ul {
-    display: none;
-  }
+    .navbar:has(input[type="checkbox"]:checked) ul {
+        display: none;
+    }
 }

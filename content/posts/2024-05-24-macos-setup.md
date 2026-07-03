@@ -146,13 +146,12 @@ Install [Homebrew](https://brew.sh/) and packages:
   - `defaults -currentHost write -globalDomain NSStatusItemSpacing -int 2`
   - `defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 2`
 - [Go](https://go.dev/dl): Go Programming language
-- [MDV](https://www.mowglii.com/mdv/): Markdown viewer and Preview pane extension
+- [mdv](https://www.mowglii.com/mdv/): Markdown viewer and Preview pane extension
 - [Sublime Text](https://www.sublimetext.com/): Text editor
 - [uv](https://docs.astral.sh/uv/), [ruff](https://docs.astral.sh/ruff/), and [ty](https://docs.astral.sh/ty/): Python tools
 - [Zed](https://zed.dev/): Code editor
 - Go tools
   - Update Go tools: `goup` (custom function in the .zfunc file)
-- Python versions to install with `uv python install <version>`
 
 ## SSH Key and Github
 

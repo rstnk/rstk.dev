@@ -110,7 +110,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
 - [Mullvad VPN](https://mullvad.net/en): VPN service
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
-- [Swinsian](https://swinsian.com/) and [Cog](https://github.com/losnoco/Cog): Music players
+- [Swinsian](https://swinsian.com/): Music player
 
 ## Terminal
 
@@ -169,7 +169,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 
 My user settings are either synced in the program or through [yadm](https://github.com/yadm-dev/yadm), which is stored on my private Github repo.
 
-- 1Password for keys, tokens, etc
+- 1Password for keys, tokens, licenses, etc
 - Clone the dotfile repo for settings and configs (.zsh*, .zfunc/, .config/, etc)
 
 ## Themes

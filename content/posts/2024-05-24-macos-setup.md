@@ -108,9 +108,12 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Itsycal](https://github.com/sfsam/Itsycal): Menu bar calendar
 - [Keka](https://github.com/aonez/Keka): Archive manager
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
+- [mdv](https://www.mowglii.com/mdv/): Markdown viewer and Preview pane extension
 - [Mullvad VPN](https://mullvad.net/en): VPN service
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
+- [Sublime Text](https://www.sublimetext.com/): Text editor
 - [Swinsian](https://swinsian.com/): Music player
+- [Zed](https://zed.dev/): Code editor
 
 ## Terminal
 
@@ -146,10 +149,7 @@ Install [Homebrew](https://brew.sh/) and packages:
   - `defaults -currentHost write -globalDomain NSStatusItemSpacing -int 2`
   - `defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 2`
 - [Go](https://go.dev/dl): Go Programming language
-- [mdv](https://www.mowglii.com/mdv/): Markdown viewer and Preview pane extension
-- [Sublime Text](https://www.sublimetext.com/): Text editor
 - [uv](https://docs.astral.sh/uv/), [ruff](https://docs.astral.sh/ruff/), and [ty](https://docs.astral.sh/ty/): Python tools
-- [Zed](https://zed.dev/): Code editor
 - Go tools
   - Update Go tools: `goup` (custom function in the .zfunc file)
 

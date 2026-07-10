@@ -107,6 +107,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [IINA](https://github.com/iina/iina): Media player
 - [Itsycal](https://github.com/sfsam/Itsycal): Menu bar calendar
 - [Keka](https://github.com/aonez/Keka): Archive manager
+- [Jot](https://jot.arunbrahma.com/): Menubar scratchpad
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
 - [mdv](https://www.mowglii.com/mdv/): Markdown viewer and Preview pane extension
 - [Mullvad VPN](https://mullvad.net/en): VPN service

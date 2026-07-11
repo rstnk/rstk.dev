@@ -61,6 +61,7 @@ I want to use this post as reference for setting up my macOS environment from sc
   - Key repeat rate: fastest
   - Delay until repeat: shortest
   - Press fn key to: Do Nothing
+  - Input Sources: Disable features
 
 - Trackpad
   - Tracking speed: 70%

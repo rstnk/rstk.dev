@@ -19,13 +19,21 @@ I am interested in data modeling, automating ETL pipelines, and implementing dat
 
 | Company | Role | Dates |
 |---------|------|-------|
-| Delfi Diagnostics | Data Engineer | Apr 2022–Present |
+| GRAIL | Data Engineer | Aug 2026–Present |
+| Delfi Diagnostics | Data Engineer | Apr 2022–Jul 2026 |
 | N-Power Medicine | Program Manager | Oct 2021–Apr 2022 |
 | GRAIL | Data Engineer | Jan 2018–Oct 2021 |
 | Gilead Sciences | Clinical Data Management | Nov 2015–Jan 2018 |
 | Genentech | Biosample Coordinator | Dec 2012–Aug 2013 |
 
 ## Professional Experience
+
+**Data Engineer** · GRAIL
+
+- Coming soon...
+- Built data quality pipeline for biospecimen tracking across clinical studies for reconciling thousands of samples
+- Developed AWS data warehouse infrastructure using S3, Glue, Athena, and QuickSight to enable self-service analytics for stakeholders
+- Led internal software development as project manager, coordinating with engineering team to deliver key features for biosample management platform
 
 **Data Engineer** · Delfi Diagnostics
 
@@ -41,12 +49,6 @@ Implemented data quality monitoring framework with automated checks and alerting
 - Delivered BI dashboards in Shiny for executive reporting, providing real-time visibility into key metrics
 - Created semantic layers following CDISC/ADaM standards, standardizing data for 3 clinical studies
 - Built LLM-powered chatbot with DuckDB MCP integration, allowing users to query data in natural language
-
-**Data Engineer** · GRAIL
-
-- Built data quality pipeline for biospecimen tracking across 3 clinical studies, reconciling thousands of samples
-- Developed AWS data warehouse infrastructure using S3, Glue, Athena, and QuickSight to enable self-service analytics for stakeholders
-- Led internal software development as project manager, coordinating with engineering team to deliver key features for biosample management platform
 
 ## Additional Experience
 

@@ -107,7 +107,6 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [IINA](https://github.com/iina/iina): Media player
 - [Itsycal](https://github.com/sfsam/Itsycal): Menu bar calendar
 - [Keka](https://github.com/aonez/Keka): Archive manager
-- [Jot](https://jot.arunbrahma.com/): Menu bar scratchpad
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
 - [mdv](https://www.mowglii.com/mdv/): Markdown viewer and Preview pane extension
 - [Mullvad VPN](https://mullvad.net/en): VPN service
@@ -122,7 +121,6 @@ Install [Homebrew](https://brew.sh/) and packages:
 
 - 1password-cli: Command-line interface for 1Password
 - atuin: Improved shell history for zsh, bash, fish and nushell
-- claude-code (--cask): Terminal-based AI coding assistant
 - duckdb: Embeddable SQL OLAP Database Management System
 - exiftool: Perl lib for reading and writing EXIF metadata
 - eza: Modern, maintained replacement for ls

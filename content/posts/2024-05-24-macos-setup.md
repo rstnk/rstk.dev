@@ -180,4 +180,5 @@ My user settings are either synced in the program or through [yadm](https://gith
 
 ## Misc
 
+- Set permissions for .zfunc directory: `chmod 755 ~/.zfunc`
 - Prevents npm from automatically running lifecycle scripts: `echo 'ignore-scripts=true' > ~/.npmrc`

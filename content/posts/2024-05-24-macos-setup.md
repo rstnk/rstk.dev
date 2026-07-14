@@ -103,6 +103,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 - [1Password](https://1password.com/): Password manager
 - [Acorn](https://flyingmeat.com/acorn/): Image editor
+- [Container](https://github.com/apple/container): Containerization tool
 - [Firefox](https://www.mozilla.org/en-US/firefox/): Web browser
 - [Ghostty](https://github.com/ghostty-org/ghostty): Terminal emulator
 - [IINA](https://github.com/iina/iina): Media player
@@ -111,6 +112,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Little Snitch](https://www.obdev.at/products/littlesnitch/): Network monitor
 - [mdv](https://www.mowglii.com/mdv/): Markdown viewer and Preview pane extension
 - [Mullvad VPN](https://mullvad.net/en): VPN service
+- [Orchard](https://github.com/andrew-waters/orchard): A GUI for Apple container
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
 - [Sublime Text](https://www.sublimetext.com/): Text editor
 - [Swinsian](https://swinsian.com/): Music player
@@ -148,7 +150,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - Compact menu bar items:
   - `defaults -currentHost write -globalDomain NSStatusItemSpacing -int 2`
   - `defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 2`
-- [Go](https://go.dev/dl): Go Programming language
+- [Go](https://go.dev/dl): Programming language
 - [uv](https://docs.astral.sh/uv/), [ruff](https://docs.astral.sh/ruff/), and [ty](https://docs.astral.sh/ty/): Python tools
 - Go tools
   - Update Go tools: `goup` (custom function in the .zfunc file)

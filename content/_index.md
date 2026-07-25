@@ -2,7 +2,7 @@
 title: "rustin k"
 ---
 
-hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk) | [sr.ht](https://sr.ht/~rst/)
+hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
 
 I am interested in data modeling, automating ETL pipelines, and implementing data governance to give AI agents the right context and proper permissions to operate accurately and effectively. I prioritize clean code and stay current with the latest data engineering technologies. I am a high performer with strong proficiency in Databricks.
 

@@ -164,7 +164,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 ## Firefox
 
 - Enable Firefox Sync for bookmarks, addons, and settings
-  - Extensions: [Kagi](https://github.com/kagisearch/browser_extensions), [Temporary Containers](https://github.com/stoically/temporary-containers), [uBlock Origin](https://github.com/gorhill/uBlock) (with [dev filters](https://github.com/quenhus/uBlock-Origin-dev-filter)), [Vimium](https://github.com/philc/vimium)
+  - Extensions: [Temporary Containers](https://github.com/stoically/temporary-containers), [uBlock Origin](https://github.com/gorhill/uBlock) (with [dev filters](https://github.com/quenhus/uBlock-Origin-dev-filter)), [Vimium](https://github.com/philc/vimium), [Port Authority](https://github.com/ACK-J/Port_Authority)
 
 ## Configs
 

@@ -158,7 +158,8 @@ Install [Homebrew](https://brew.sh/) and packages:
 ## SSH Key and Github
 
 - Generate a new SSH key in [1Password](https://support.1password.com/developer/)
-- Add public keys to Github (both Authentication and Signing key types) and sourcehut
+- Add public keys to Github (both Authentication and Signing key types), Tangled, and Sourcehut
+- Create `~/.gitconfig-*` and `~/.ssh/*.pub` files and update `~/.gitconfig` and `~/.ssh/config`
 - Test connection with `ssh -T git@github.com` and `ssh -T git@git.sr.ht`
 
 ## Firefox

@@ -2,9 +2,16 @@
 title: "rustin k"
 ---
 
-hello@ | [rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
+hello@[rstk.dev](https://rstk.dev/) | [github](https://github.com/rstnk)
 
 I am interested in data modeling, automating ETL pipelines, and implementing data governance to give AI agents the right context and proper permissions to operate accurately and effectively. I prioritize clean code and stay current with the latest data engineering technologies. I am a high performer with strong proficiency in Databricks.
+
+On the AI front, here are selected open-source projects I built using different AI coding agents:
+
+- [leaf](https://github.com/rstnk/leaf): Offline-only terminal-based notes app
+- [janitor](https://github.com/rstnk/janitor): CLI tool for cleaning up strings
+- [mdoc](https://github.com/rstnk/mdoc): CLI tool that converts markdown into self-contained HTML
+- [mdquiz](https://github.com/rstnk/mdquiz): Web app that turns markdown notes into AI-generated quizzes with automated grading
 
 ## Technical Skills
 

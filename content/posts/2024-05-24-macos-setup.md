@@ -80,7 +80,6 @@ I want to use this post as reference for setting up my macOS environment from sc
 - Toolbar: Back/Forward, Path, Search
 - View as columns
 - Sort by name
-- Hide folders with `chflags hidden <directory>`
 
 - General
   - Show these items on desktop: External disks
@@ -98,6 +97,15 @@ I want to use this post as reference for setting up my macOS environment from sc
     - Show all filename extensions: Enable
     - Keep folders on top: In windows when sorting by name
   - When performing a search: Search This Mac
+
+## Advanced Settings
+
+- Hide folders with `chflags hidden <directory>`
+- Disable accented character when holding down keys:
+  - `defaults write -g ApplePressAndHoldEnabled -bool false`
+- Compact menu bar items:
+  - `defaults -currentHost write -globalDomain NSStatusItemSpacing -int 2`
+  - `defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 2`
 
 ## Software
 
@@ -145,34 +153,35 @@ Install [Homebrew](https://brew.sh/) and packages:
 ## Programming
 
 - Xcode will be installed as part of `brew`
-- Disable accented character when holding down keys:
-  - `defaults write -g ApplePressAndHoldEnabled -bool false`
-- Compact menu bar items:
-  - `defaults -currentHost write -globalDomain NSStatusItemSpacing -int 2`
-  - `defaults -currentHost write -globalDomain NSStatusItemSelectionPadding -int 2`
 - [Go](https://go.dev/dl): Programming language
 - [uv](https://docs.astral.sh/uv/), [ruff](https://docs.astral.sh/ruff/), and [ty](https://docs.astral.sh/ty/): Python tools
 - Go tools
   - Update Go tools: `goup` (custom function in the .zfunc file)
 
-## SSH Key and Github
+## SSH Key and Repositories
 
 - Generate a new SSH key in [1Password](https://support.1password.com/developer/)
 - Add public keys to Github (both Authentication and Signing key types), Tangled, and Sourcehut
 - Create `~/.gitconfig-*` and `~/.ssh/*.pub` files and update `~/.gitconfig` and `~/.ssh/config`
-- Test connection with `ssh -T git@github.com` and `ssh -T git@git.sr.ht`
+- Test connection with `ssh -T git@github.com`, `ssh -T git@tangled.org`, and `ssh -T git@git.sr.ht`
 
 ## Firefox
 
 - Enable Firefox Sync for bookmarks, addons, and settings
   - Extensions: [Temporary Containers](https://github.com/stoically/temporary-containers), [uBlock Origin](https://github.com/gorhill/uBlock) (with [dev filters](https://github.com/quenhus/uBlock-Origin-dev-filter)), [Vimium](https://github.com/philc/vimium), [Port Authority](https://github.com/ACK-J/Port_Authority)
 
-## Configs
+## Dotfiles and Secrets Management
 
 My user settings are either synced in the program or through [yadm](https://github.com/yadm-dev/yadm), which is stored on my private Github repo.
 
-- 1Password for keys, tokens, licenses, etc
-- Clone the dotfile repo for settings and configs (.zsh*, .zfunc/, .config/, etc)
+- 1Password for secret management (keys, tokens, licenses, etc)
+- YADM dotfile repo for settings and configs (.zsh*, .zfunc/, .config/, etc)
+
+## AI
+
+- The `~/.agents` folder contains shared AI skills and subagents, symlinked into each provider's own config directory:
+  - `ln -s ~/.agents/agents ~/.<provider-dir>/agents`
+  - `ln -s ~/.agents/skills ~/.<provider-dir>/skills`
 
 ## Themes
 
@@ -181,7 +190,7 @@ My user settings are either synced in the program or through [yadm](https://gith
 - Neovim: [One Dark](https://github.com/navarasu/onedark.nvim)
 - Zed: [Custom theme](https://github.com/rstnk/zed-theme-go/tree/main)
 
-## Misc
+## Security
 
 - Set permissions for .zfunc directory: `chmod 755 ~/.zfunc`
 - Prevents npm from automatically running lifecycle scripts: `echo 'ignore-scripts=true' > ~/.npmrc`

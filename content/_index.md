@@ -13,6 +13,7 @@ On the AI front, here are selected open-source projects I built using different 
 - [mdoc](https://github.com/rstnk/mdoc): CLI tool that converts markdown into self-contained HTML
 - [mdquiz](https://github.com/rstnk/mdquiz): Web app that turns markdown notes into AI-generated quizzes with automated grading
 - [tunetitan](https://github.com/rstnk/tunetitan): Web app to generate music using ElevenLabs Music API
+- [mediatools](https://github.com/rstnk/mediatools): CLI tool that wraps a few ImageMagick and ffmpeg operations
 
 ## Technical Skills
 

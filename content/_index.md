@@ -11,7 +11,6 @@ On the AI front, here are selected open-source projects I built using different 
 - [fit](https://github.com/rstnk/fit): CLI tool that gets media files to fit a target using ffmpeg and ImageMagick
 - [igo](https://github.com/rstnk/igo): CLI tool to generate `.gitignore` files from [github/gitignore](https://github.com/github/gitignore) templates
 - [janitor](https://github.com/rstnk/janitor): CLI tool for cleaning up strings
-- [leaf](https://github.com/rstnk/leaf): Offline-only terminal-based notes app
 - [mdoc](https://github.com/rstnk/mdoc): CLI tool that converts markdown into self-contained HTML
 - [mdquiz](https://github.com/rstnk/mdquiz): Web app that turns markdown notes into AI-generated quizzes with automated grading
 - [tunetitan](https://github.com/rstnk/tunetitan): Web app to generate music using ElevenLabs Music API

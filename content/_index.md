@@ -8,7 +8,6 @@ I am interested in data modeling, automating ETL pipelines, and implementing dat
 
 On the AI front, here are selected open-source projects I built using different AI coding agents:
 
-- [ask](https://github.com/rstnk/ask): CLI tool for turning a URL, file, directory, or stdin into a requested
 - [igo](https://github.com/rstnk/igo): CLI tool to generate `.gitignore` files from [github/gitignore](https://github.com/github/gitignore) templates
 - [janitor](https://github.com/rstnk/janitor): CLI tool for cleaning up strings
 - [mdoc](https://github.com/rstnk/mdoc): CLI tool that converts markdown into self-contained HTML

@@ -18,12 +18,11 @@ I want to use this post as reference for setting up my macOS environment from sc
 
 - Accessibility
   - Display: Shake mouse pointer to locate: Disable
-  - Increase contrast: Enable
-  - Display: Reduce transparency: Enable
   - Differentiate without color: Enable
 
 - Appearance
-  - Liquid Glass: Tinted
+  - Liquid Glass: More tinted
+  - Tint window background with wallpaper color: Disable
   - Windows: Sidebar icon size: Small
   - Show scroll bars: Always
   - Click in the scroll bar to: Jump to spot that's clicked
@@ -38,6 +37,7 @@ I want to use this post as reference for setting up my macOS environment from sc
   - Double-click a window title: Do Nothing
   - Minimize windows into application icon: Disable
   - Automatically hide and show the Dock: Enable
+  - Animate opening applications: Disable
   - Show suggested and recent apps in Dock: Disable
   - Desktop & Storage Manager: Show items: On Desktop
   - Stage Manager: Disable
@@ -45,6 +45,7 @@ I want to use this post as reference for setting up my macOS environment from sc
   - Hot Corners: top-right: Mission Control, bottom-right: Desktop
 
 - Menu Bar
+  - Show menu bar background
   - Hide everything
 
 - Spotlight

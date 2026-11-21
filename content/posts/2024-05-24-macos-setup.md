@@ -123,6 +123,7 @@ I want to use this post as reference for setting up my macOS environment from sc
 - [Mullvad VPN](https://mullvad.net/en): VPN service
 - [Orchard](https://github.com/andrew-waters/orchard): A GUI for Apple container
 - [Rectangle Pro](https://rectangleapp.com/pro): Window manager
+- [Rex](https://www.superlogical.com/): Terminal multiplexer
 - [Sublime Text](https://www.sublimetext.com/): Text editor
 - [Swinsian](https://swinsian.com/): Music player
 - [Zed](https://zed.dev/): Code editor
@@ -133,6 +134,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 
 - 1password-cli: Command-line interface for 1Password
 - atuin: Improved shell history for zsh, bash, fish and nushell
+- btop: Resource monitor. C++ version and continuation of bashtop and bpytop
 - duckdb: Embeddable SQL OLAP Database Management System
 - exiftool: Perl lib for reading and writing EXIF metadata
 - eza: Modern, maintained replacement for ls
@@ -148,6 +150,7 @@ Install [Homebrew](https://brew.sh/) and packages:
 - serie: Rich git commit graph in your terminal
 - starship: Cross-shell prompt for astronauts
 - wget: Internet file retriever
+- worktrunk: CLI for Git worktree management, designed for parallel AI agent workflows
 - yadm: Yet Another Dotfiles Manager
 - yt-dlp: Feature-rich command-line audio/video downloader
 
